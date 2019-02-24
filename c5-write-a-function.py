@@ -1,6 +1,9 @@
 '''
 Write a task to judge if input year is leap year or not
 '''
+'''
+Write a task to judge if input year is leap year or not
+'''
 def is_leap(year):
     leap = False
 
@@ -8,6 +11,8 @@ def is_leap(year):
         if year % 100 == 0:
             if year % 400 == 0:
                 leap = True
+        else:
+            leap = True
 
     return leap
 
